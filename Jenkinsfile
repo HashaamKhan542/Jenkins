@@ -68,6 +68,12 @@ pipeline {
            
             }
         }
+        stage('Checking') {
+            steps {
+                echo 'Check'
+           
+            }
+        }
      
     }
 
