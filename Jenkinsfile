@@ -68,12 +68,7 @@ pipeline {
            
             }
         }
-        stage('Checking') {
-            steps {
-                echo 'Checking'
-           
-            }
-        }
+     
     }
 
     post {
